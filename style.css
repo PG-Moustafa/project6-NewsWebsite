@@ -1,0 +1,217 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: serif;
+}
+body {
+
+}
+header {
+    
+}
+
+/* header1 */
+.header1 {
+    display: flex;
+    background-color: rgb(19, 18, 18);
+    box-sizing: border-box;
+}
+#logo {
+    margin-left: 80px;
+    padding: 10px;
+}
+#live {
+    color: white;
+    padding: 10px;
+    position: absolute;
+    right: 150px;
+}
+#live::before {
+    content: '';
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+#search {
+    color: white;
+    box-sizing: border-box;
+    padding: 9px;
+    font-size: 20px;
+    background-color: rgb(44, 42, 42);
+    position: absolute;
+    right: 80px;
+}
+#search:hover {
+    background-color: rgb(160, 160, 160);
+    cursor: pointer;
+}
+
+/* header 2*/
+.header2 {
+    background-color: rgb(38, 166, 216);
+}
+.list1 {
+    display: flex;
+    list-style-type: none;
+    padding-left: 60px;
+}
+.list1 li {
+    color: rgb(240, 235, 235);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 25px;
+    align-items: center;
+    padding: 10px 30px;
+}
+.list1 li:hover {
+    background-color:  rgb(23, 123, 163);
+}
+
+main {
+
+}
+.maindiv {
+    display: flex;
+}
+
+/* div 1 */
+.div1 {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#image1 {
+    width: 600px;
+    box-sizing: border-box;
+}
+.p1 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#relatedstories {
+    color: gray;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    float:left;
+    padding-top: 5px;
+}
+
+/* div 2 */
+.div2 {
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 0 20px;
+    border-left: 1px solid rgb(208, 208, 208);
+    border-right: 1px solid rgb(208, 208, 208);
+}
+#logo2 {
+    float : left;
+}
+.yazar {
+    margin-top: 20px;
+    display: flex;
+}
+#yazarlogo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+#murat {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:gray;
+}
+#depth {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+}
+#iran {
+    font-size: 19px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+#image2 {
+    width: 330px;
+    height: 200px;
+}
+#image3 {
+    width: 330px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+/* div 3 */
+.div3 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#text1 {
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+#text2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    line-height: 25px;
+}
+#text3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    line-height: 25px;
+}
+#text4 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    line-height: 25px;
+}
+.hamzah {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+.hamzahlogo {
+    margin-top: 40px;
+}
+.hamzahtext {
+    margin-left: 30px;
+}
+#text5 {
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text6 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
