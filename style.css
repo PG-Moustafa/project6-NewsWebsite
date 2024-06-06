@@ -7,24 +7,26 @@ body {
 
 }
 header {
-    
-}
-
-/* header1 */
-.header1 {
     display: flex;
     background-color: rgb(19, 18, 18);
     box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+}
+.logo {
+    flex: 4;
 }
 #logo {
-    margin-left: 80px;
-    padding: 10px;
+    padding: 15px;
+    margin-left: 50px;
+}
+.live {
+    flex: 2px;
 }
 #live {
     color: white;
-    padding: 10px;
-    position: absolute;
-    right: 150px;
+    padding: 15px;
+    min-width: 100px;
 }
 #live::before {
     content: '';
@@ -35,39 +37,53 @@ header {
     background-color: red;
     margin-right: 5px;
 }
+.search {
+    flex: 2px;
+}
 #search {
     color: white;
-    box-sizing: border-box;
-    padding: 9px;
-    font-size: 20px;
+    padding: 12px;
+    font-size: 25px;
     background-color: rgb(44, 42, 42);
-    position: absolute;
-    right: 80px;
+    margin-left: 20px;
 }
 #search:hover {
     background-color: rgb(160, 160, 160);
     cursor: pointer;
 }
 
-/* header 2*/
-.header2 {
+
+/* navigation */
+nav {
     background-color: rgb(38, 166, 216);
 }
 .list1 {
     display: flex;
     list-style-type: none;
-    padding-left: 60px;
 }
 .list1 li {
     color: rgb(240, 235, 235);
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 25px;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    min-width: 100px;
 }
 .list1 li:hover {
     background-color:  rgb(23, 123, 163);
+}
+@media screen and (max-width: 1200px) {
+    .list1 {
+        flex-wrap: wrap;
+    }
+
+    .list1 li {
+        max-width: 150px;
+    }
 }
 
 main {
